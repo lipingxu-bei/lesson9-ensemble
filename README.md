@@ -34,8 +34,6 @@ python -m src.run_experiments
 python -m src.plot_results
 ```
 
-也可以在安装依赖后双击 `run_all.bat`，它将按顺序执行测试、实验和画图。
-
 实验默认随机种子 `1010`。运行完成后，CSV 更新到 `results/`，5组多面板图保存到 `figures/`。切勿直接运行 `src` 下的文件后期望它依赖当前工作目录：推荐始终使用 `python -m src.xxx`。
 
 ### 自定义路径和抽样次数
@@ -72,19 +70,5 @@ python -m src.plot_results --help
 | `E_adaboost_weight_trace.csv` | AdaBoost权重更新的教学示例 |
 | `metadata.json` | 随机种子、输入校验和、运行参数等 |
 
-## 关于报告与代码的关系
 
-`reports/集成学习_WDBC_用户最终原稿.pdf` 是直接复制用户最后上传的PDF，未对其内容做任何文字改写。代码优化只影响实验项目；如果未来升级scikit-learn导致某些结果有差异，应记录版本并重新核对，**不能静默替换报告里的数字**。
 
-## GitHub 上传
-
-```powershell
-git init
-git add .
-git commit -m "Initialize lesson9 ensemble coursework"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/lesson9-ensemble.git
-git push -u origin main
-```
-
-建议创建 **Private** 仓库，不要上传 `data/teacher/` 或其他评分答案。
