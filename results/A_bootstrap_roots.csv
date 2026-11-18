@@ -1,0 +1,13 @@
+bootstrap,root_feature,root_threshold
+1,worst perimeter,112.799999
+2,worst perimeter,103.25
+3,worst concave points,0.1437
+4,worst area,739.75
+5,worst perimeter,106.200001
+6,worst perimeter,115.349998
+7,mean concave points,0.05142
+8,worst perimeter,105.5
+9,worst perimeter,108.100002
+10,worst radius,16.665
+11,worst concave points,0.1456
+12,worst concave points,0.1505

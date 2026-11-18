@@ -1,0 +1,35 @@
+# Python caches / virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+~$*
+*.swp
+
+# Local-only and secrets
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+
+# Never commit teacher answer keys, test labels or grading files
+**/teacher/
+**/locked-test-labels.csv
+**/all-measurements.csv
+**/split-manifest.json
+
+# Large generated intermediates
+*.npy
+*.npz

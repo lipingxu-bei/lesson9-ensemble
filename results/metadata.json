@@ -1,0 +1,44 @@
+{
+  "bootstrap_unique_mean": 0.6328181818181817,
+  "bootstrap_unique_sd": 0.01706916131479386,
+  "bootstrap_unique_min": 0.5777126099706745,
+  "bootstrap_unique_max": 0.6832844574780058,
+  "bootstrap_unique_theory": 0.632660631573314,
+  "seed": 1010,
+  "config": {
+    "seed": 1010,
+    "n_estimators": 100,
+    "bootstrap_repeats": 1000,
+    "stability_repeats": 30,
+    "permutation_repeats": 10,
+    "gb_max_estimators": 500,
+    "jobs": 1
+  },
+  "n_features": 30,
+  "n_train": 341,
+  "n_valid": 114,
+  "n_dev": 455,
+  "train_positive": 127,
+  "valid_positive": 43,
+  "high_corr_pairs_gt_09": 21,
+  "train_sha256": "37214ac7e40fcbe336e3f8d0b3567bd979d22ed7d734ce592b3d171ce05608b7",
+  "validation_sha256": "8df3d9aa50c9ab55b18ab9f2f0d87e17c12c4d1c4b8a53126644a25f2d9d809f",
+  "locked_test_labels_used": false,
+  "cross_validation_is_development_only": true,
+  "validation_best_auc": "Logistic regression",
+  "cv_best_auc": "Logistic regression",
+  "models_evaluated": [
+    "Single tree",
+    "Bagging",
+    "Random forest",
+    "AdaBoost",
+    "Gradient boosting",
+    "Logistic regression",
+    "RBF-SVM"
+  ],
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0"
+  }
+}
